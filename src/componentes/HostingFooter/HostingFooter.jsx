@@ -15,7 +15,7 @@ const HostingFooter = () => {
                   Hello I would like to migrate my website to hostinger
                 </p>
               </div>
-              <div className="ml-36 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[30px]  first flex justify-center items-center gap-5 w-[360px] bg-indigo-700 p-2">
+              <div className="lg:ml-36 md:ml-25 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[30px]  first flex justify-center items-center gap-5 w-[360px] bg-indigo-700 p-2">
                 <img src={f1} className="w-[100px] mt-[-20px] " alt="" />
                 <p className="text-start text-white">
                   Hi! I'll be glad to help you out we will do it for you in no
