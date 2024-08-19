@@ -14,7 +14,7 @@ const HostingPlan = () => {
       </div>
       <div className="container mx-auto flex flex-wrap justify-center lg:gap-5 gap-20 mt-12">
         {/* first one */}
-        <div className=" bg-gray-100 rounded-lg w-[400px]">
+        <div className=" bg-gray-100 rounded-lg w-[405px]">
           <div className="p-6">
             <h2 className="text-2xl font-bold text-indigo-900">Premium </h2>
             <p className="py-2 text-gray-500">
@@ -32,7 +32,7 @@ const HostingPlan = () => {
             </p>
             <p className="text-sm mt-2 text-gray-500">For 48 months term</p>
             <div className="text-center">
-              <button className=" border-2 border-indigo-500 text-purple-800 px-28 py-2 rounded-lg font-bold my-5">
+              <button className=" border border-indigo-500 text-purple-800 px-28 py-2 rounded-lg font-bold my-5">
                 Choose Plan
               </button>
             </div>
@@ -204,9 +204,9 @@ const HostingPlan = () => {
           </div>
         </div>
         {/* second one */}
-        <div className=" bg-gray-100  w-[400px] ">
-          <div className=" border-2 border-indigo-200 rounded-lg">
-            <div className=" rounded-tl-[20px] rounded-tr-[20px]  mt-[-45px] bg-indigo-400 ">
+        <div className="relative bg-gray-100  w-[405px] border-2 border-gray-300 ">
+          <div className="">
+            <div className="absolute top-[-48px] w-[405px]  rounded-tl-[20px] rounded-tr-[20px] bg-indigo-400 ">
               <h1 className="py-3 text-center font-bold text-white">
                 MOST POPULAR
               </h1>
