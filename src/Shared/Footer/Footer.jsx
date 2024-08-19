@@ -1,10 +1,9 @@
 
-
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer .jsx</h1>
-        </div>
+      <div>
+        <h1>i am footer</h1>
+     </div>
     );
 };
 

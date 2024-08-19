@@ -1,8 +1,18 @@
+import HostingFooter from "../../componentes/HostingFooter/HostingFooter";
+import HostingHeader from "../../componentes/HostingHeader/HostingHeader";
+import HostingPlan from "../../componentes/hostingPlan/HostingPlan";
+import Categories from "../../components/Categories/Categories";
+import Products from "../../components/products/Products";
+
 
 const Home = () => {
     return (
         <div>
-            <h1>HOme Pages</h1>
+            <hr className="text-4xl" />
+            {/* <Products /> */}
+            <HostingHeader></HostingHeader>
+            <HostingPlan></HostingPlan>
+            <HostingFooter></HostingFooter>
         </div>
     );
 };
