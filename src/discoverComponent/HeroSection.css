@@ -1,0 +1,73 @@
+.content {
+   position: relative;
+}
+.content .Photo0{
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    z-index: 100;
+}
+.first-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+.third-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-column h1 {
+  font-size: 50px;
+  font-style: bold;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.first-column p {
+  font-size: 20px;
+  font-style: bold;
+  margin-bottom: 15px;
+}
+.first-column button {
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-style: bold;
+  background-color: rgb(49, 48, 48);
+  margin-bottom: 5px;
+}
+.third-column .Photo1 {
+  position: absolute;
+  right: 28%;
+  top: 50%;
+}
+.third-column .photo3{
+     position: absolute;
+  right: 50%;
+  top: 50%;
+}
+.second-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+}
+.second-section .Photo3{
+ position: absolute;
+ right: 50%;
+}
+.third-column1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.profile p {
+  font-size: 18px;
+}

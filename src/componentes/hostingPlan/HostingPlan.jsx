@@ -203,14 +203,16 @@ const HostingPlan = () => {
             </a>
           </div>
         </div>
+        {/* first one */}
         {/* second one */}
         <div className="relative bg-gray-100  w-[405px] border-2 border-gray-300 ">
           <div className="">
-            <div className="absolute top-[-48px] w-[405px]  rounded-tl-[20px] rounded-tr-[20px] bg-indigo-400 ">
+            <div className=" absolute top-[-48px] w-[405px]  rounded-tl-[20px] rounded-tr-[20px] bg-indigo-400 ">
               <h1 className="py-3 text-center font-bold text-white">
                 MOST POPULAR
               </h1>
             </div>
+            {/* first */}
             <div className="p-6">
               <h2 className="text-2xl font-bold text-indigo-900">Business </h2>
               <p className="py-2 text-gray-500">
@@ -234,6 +236,7 @@ const HostingPlan = () => {
               <p className="mb-8 text-gray-500">$7.99/mo when you renew</p>
               <hr className="border border-gray-300" />
             </div>
+            {/* first */}
             <div className="p-6 text-gray-800">
               <ul className="space-y-2">
                 <li className="flex items-start ">
@@ -406,6 +409,7 @@ const HostingPlan = () => {
             </div>
           </div>
         </div>
+        {/* second one */}
       </div>
     </div>
   );
