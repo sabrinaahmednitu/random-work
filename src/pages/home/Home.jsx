@@ -4,6 +4,8 @@ import HostingPlan from "../../componentes/hostingPlan/HostingPlan";
 import Categories from "../../components/Categories/Categories";
 import Products from "../../components/products/Products";
 import HeroSection from "../../discoverComponent/HeroSection";
+import FourImage from "../../fourImage/FourImage";
+import WhiteBoard from "../../whiteBoardComp/WhiteBoard";
 import './Home.css';
 
 
@@ -19,10 +21,11 @@ const Home = () => {
             <HostingFooter></HostingFooter> */}
 
         {/* project three */}
-     
-          <HeroSection />
-         
-        
+
+        {/* <HeroSection /> */}
+        {/* project four */}
+        <WhiteBoard></WhiteBoard>
+        {/* <FourImage></FourImage> */}
       </div>
     );
 };
