@@ -63,7 +63,7 @@ const WhiteBoard = () => {
     <div className="bg-[#c9cfcf]">
       <div className="container mx-auto">
         {/* section-1 */}
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-5 md:px-5 lg:px-0 gap-5 md:gap-5 lg:gap-0 pt-5 pb-11 md:pt-5 md:pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-5 md:px-0 lg:px-0 gap-5 md:gap-5 lg:gap-0 pt-5 pb-11 md:pt-5 md:pb-20">
           <div className="max-w-[700px] transform translate-x-[0px] translate-y-[0px] md:translate-x-[0px] md:translate-y-[0px] lg:translate-x-[220px] lg:translate-y-[65px] z-10">
             <h1 className="text-6xl md:text-7xl lg:text-8xl text-[#353D32] font-bold mb-5">
               Interior design
@@ -78,40 +78,40 @@ const WhiteBoard = () => {
             </button>
           </div>
           <div>
-            <img src={imageRight} className="" alt="" />
+            <img src={imageRight} className="mx-auto lg:mx-0 md:mx-0" alt="" />
           </div>
         </div>
 
         {/* section-2 */}
-        <div className="flex justify-center items-center">
+        <div className="block md:block lg:flex justify-center items-center gap-5 md:gap-5 lg:gap-0">
           <img
             src={imageLeft}
-            className="flex-[30%] transform translate-y-[-80px]"
+            className="flex-[30%] transform mx-auto md:mx-0 lg:translate-y-[-80px]"
             alt=""
           />
-          <div className="flex-[60%] grid grid-cols-3 justify-center items-center gap-2 p-12   bg-[#cfd8d8e6] rounded-[120px] transform translate-x-[-90px]">
+          <div className="flex-[60%] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 justify-center items-center gap-2 p-12  bg-[#cfd8d8e6] rounded-lg lg:rounded-[150px] transform lg:translate-x-[-90px]">
             <div>
-              <h1 className="text-[20px] font-bold">5.8</h1>
-              <h2 className="border-b-[3px] border-[#353d32] w-[27px] my-4"></h2>
-              <p>
+              <h1 className="text-[25px] font-bold">5.8</h1>
+              <h2 className="border-b-[3px] border-[#353d32] w-[36px] my-4"></h2>
+              <p className="text-xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 tenetur quos animi! Facilis inventore a soluta cumque libero
                 ipsam quaerat?
               </p>
             </div>
             <div>
-              <h1 className="text-[20px] font-bold">99+</h1>
-              <h2 className="border-b-[3px] border-[#353d32] w-[27px] my-4"></h2>
-              <p>
+              <h1 className="text-[25px] font-bold">99+</h1>
+              <h2 className="border-b-[3px] border-[#353d32] w-[36px] my-4"></h2>
+              <p className="text-xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 tenetur quos animi! Facilis inventore a soluta cumque libero
                 ipsam quaerat?
               </p>
             </div>
             <div>
-              <h1 className="text-[20px] font-bold">110k</h1>
-              <h2 className="border-b-[3px] border-[#353d32] w-[27px] my-4"></h2>
-              <p>
+              <h1 className="text-[25px] font-bold">110k</h1>
+              <h2 className="border-b-[3px] border-[#353d32] w-[36px] my-4"></h2>
+              <p className="text-xl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 tenetur quos animi! Facilis inventore a soluta cumque libero
                 ipsam quaerat?
