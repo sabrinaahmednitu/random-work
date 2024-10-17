@@ -63,9 +63,9 @@ const WhiteBoard = () => {
     <div className="bg-[#c9cfcf]">
       <div className="container mx-auto">
         {/* section-1 */}
-        <div className="grid grid-cols-2">
-          <div className="max-w-[700px] transform translate-x-[220px] translate-y-[65px] z-10">
-            <h1 className="text-8xl text-[#353D32] font-bold mb-5">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-5 md:px-5 lg:px-0 gap-5 md:gap-5 lg:gap-0 pt-5 pb-11 md:pt-5 md:pb-20">
+          <div className="max-w-[700px] transform translate-x-[0px] translate-y-[0px] md:translate-x-[0px] md:translate-y-[0px] lg:translate-x-[220px] lg:translate-y-[65px] z-10">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl text-[#353D32] font-bold mb-5">
               Interior design
             </h1>
             <p className="text-2xl mb-4">
